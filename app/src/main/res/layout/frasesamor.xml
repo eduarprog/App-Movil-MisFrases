@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--Foto de perfil-->
+        <!--<ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ejemplologo"/>
+-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+            <!--Nombre del admin-->
+            <TextView
+                android:id="@+id/NombresAdmin"
+                android:text="Frases de amor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#388DD8"/>
+
+            <!--Logo imagen!-->
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:src="@drawable/amor"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#388DD8"
+                android:layout_marginTop="10dp"/>
+
+
+            <!--Frase 1-->
+            <TextView
+                android:id="@+id/text1"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Mi lugar favorito en el mundo es a tu lado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+
+                android:textColor="#000"
+
+               />
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/copy1"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    />
+            </LinearLayout>
+
+
+            <!--Frase 2-->
+            <TextView
+                android:id="@id/text2"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Te amo, donde sea, cuando sea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy2"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+
+
+            <!--Frase 3-->
+            <TextView
+                android:id="@+id/text3"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No hay momento en el que deje de pensar en ti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy3"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    />
+            </LinearLayout>
+
+            <!--Frase 4-->
+            <TextView
+                android:id="@+id/text4"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No hay tormenta que no supere junto a ti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy4"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <!--Frase 5-->
+            <TextView
+                android:id="@+id/text5"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El amor más fuerte es aquél que puede mostrar su fragilidad "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy5"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+             <!--Frase 6-->
+            <TextView
+                android:id="@+id/text6"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Te quiero, no por quien eres, sino por quien soy cuando estoy contigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy6"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text7"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Te ame desde el primer dia y por eso lo hare hasta el final"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy7"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text8"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La constumbre es mas fuerte que el amor "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy8"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text9"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Eres todo para mi, nunca lo olvides"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy9"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text10"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No es la historia más bonita, ni la más perfecta. Es la nuestra y con eso basta "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy10"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text11"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Amar a alguien es una cosa, que alguien te ame es otra. Pero que te ame la misma persona que amas, lo es todo  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy11"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text12"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Los momentos a tu lado son únicos, no los olvidaria nunca  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy12"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text13"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Si no te hubiera conocido, habría soñado hacerte una realidad "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy13"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf12"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text14"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Aquí estamos los soñadores, los ingenuos, los que aún creemos en la fuerza de las palabras "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy14"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf13"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text15"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  No fue dificil elegirte, lo dificil sera olvidarte "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy15"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf14"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text16"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Quiero todo de ti, para siempre, tú y yo, cada día "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy16"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf15"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text17"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Andábamos sin buscarnos, pero sabiendo que andábamos para encontrarnos "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy17"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf16"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text18"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Si no tardas mucho, te espero toda la vida "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy18"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf17"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text19"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Eres cada razón, cada esperanza y cada sueño que he tenido "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy19"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf18"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text20"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Te amo tanto y para que imagines cuánto, cuenta todas las estrellas y súmale una más "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy20"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf19"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text21"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Debes saber que tienes en tus manos mi corazón y mis esperanzas "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy21"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf20"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text22"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No fuiste antes ni después, fuiste a tiempo. A tiempo para que me enamorara de ti  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy22"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf21"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text23"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Te amo por encima de todo aquello que no podemos ver, por encima de lo que no podemos conocer  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy23"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf22"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text24"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No, no hay nada mejor que probar un primer beso, y más de ti  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy24"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf23"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text25"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Lo más bello de nuestro amor es que camina sobre las aguas sin hundirse  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy25"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text26"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Los dos inventamos la aventura del amor "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy26"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf25"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text27"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Le doy gracias a Dios por tu vida y por la gracia de ponernos juntos en este camino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy27"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf26"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text28"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Te amare todos los días, eso nunca los dudes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy28"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf27"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text29"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Solo podemos aprender a amar amando, intentalo conmigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy29"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf28"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text30"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Amar no es mirarse el uno al otro; es mirar juntos en la misma dirección"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy30"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf29"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text31"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Ser profundamente amado te da fuerzas, mientras que amar profundamente a alguien te da coraje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy31"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf30"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text32"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Hay que amarse primero a uno mismo para luego pensar en amar a otra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy32"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf31"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text33"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El amor no reclama posesiones, sino que da libertad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy33"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf32"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text34"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Todo es más claro cuando estás enamorado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy34"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf33"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text35"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El amor es la más fuerte de las pasiones, porque ataca al mismo tiempo a la cabeza, al cuerpo y al corazón"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy35"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf34"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </ScrollView>
+
+
+
+</androidx.cardview.widget.CardView>

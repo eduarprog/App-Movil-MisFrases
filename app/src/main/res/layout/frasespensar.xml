@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--Foto de perfil-->
+        <!--<ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ejemplologo"/>
+-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+            <!--Nombre del admin-->
+            <TextView
+                android:id="@+id/NombresAdmin"
+                android:text="Frases para ponerse a pensar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#388DD8"/>
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pensar"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#388DD8"
+                android:layout_marginTop="10dp"/>
+
+
+            <!--Frase 1-->
+            <TextView
+                android:id="@+id/text1"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El tiempo no es infinito, asi que no lo desaproveches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+
+                android:textColor="#000"
+
+                />
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy1"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    />
+            </LinearLayout>
+
+
+            <!--Frase 2-->
+            <TextView
+                android:id="@id/text2"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="No dejes que tu mente te domine, eres mas fuerte de lo que crees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy2"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+
+
+            <!--Frase 3-->
+            <TextView
+                android:id="@+id/text3"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La peor experiencia es la mejor maestra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy3"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    />
+            </LinearLayout>
+
+            <!--Frase 4-->
+            <TextView
+                android:id="@+id/text4"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="En esta vida, el dinero no es importante cuando hay salud y amor "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy4"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <!--Frase 5-->
+            <TextView
+                android:id="@+id/text5"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Si quieres el éxito a tu lado, tienes que pensar, darte tantas oportunidades como necesites y deshacerte del miedo a fracasar "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy5"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+            <!--Frase 6-->
+            <TextView
+                android:id="@+id/text6"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El tiempo nos enseña que para descubrir a dónde vamos, tenemos que volver la vista atrás con cariño"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy6"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text7"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La vida es similar a un rompecabezas, cada pieza tiene una razón, un lugar y un porqué. No insistas en colocar piezas donde no caben "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy7"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text8"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Que la vida me perdone las veces que no la viví"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy8"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text9"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El universo te está dando exactamente lo que necesitas experimentar "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy9"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text10"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Haz lo que sea necesario para ser la mejor versión de ti mismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy10"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text11"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Todo lo que hagas, es todo lo que eres "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy11"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text12"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Si puedes imaginarlo, es que es real  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy12"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text13"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Quién es amigo de todos, es amigo de nadie, recuerda eso "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy13"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf12"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text14"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No es que haya errado en la vida, lo que me ha ocurrido es que me he encontrado con 1000 caminos que no eran el mío "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy14"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf13"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text15"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Para pensar en grande, debes pensar primero en pequeño "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy15"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf14"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text16"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Juzgar la belleza es algo complicado, ya que es un enigma difícil de resolver "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy16"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf15"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text17"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El amor propio no es egoísta, es revolucionario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy17"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf16"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text18"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Si el universo te esta haciendo esperar, preparate para recibir mas de lo que perdiste "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy18"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf17"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text19"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  La experiencia más dolorosa es al final la mejor maestra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy19"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf18"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text20"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La risa es el lenguaje del alma "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy20"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf19"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text21"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="Para seguir adelante, lo que tienes que hacer es dejar de leer el mismo capítulo de tu vida y empezar con el siguiente "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy21"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf20"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text22"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  El amor no tiene cura, pero es la unica cura para todos los males "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy22"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf21"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text23"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La vida no es un problema para ser resuelto, es un misterio para ser vivido  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy23"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf22"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text24"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" En la vida hay algo peor que el fracaso, no haber intentado nada "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy24"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf23"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text25"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Existen personas que no te quieren perder, pero tampoco saben como cuidarte  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy25"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text26"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No cambies tu esencia para tener una aprobación "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy26"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf25"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text27"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No te ahogas al caer en el agua, te ahogas por quedarte en ella"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy27"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf26"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text28"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El silencio es el grito mas poderoso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy28"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf27"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text29"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Hacer dos cosas al mismo tiempo, es no hacer ninguna de ellas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy29"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf28"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text30"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El dolor es inevitable, pero el sufrimiento es opcional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy30"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf29"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text31"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Conocidos son muchos, amigos son pocos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy31"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf30"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text32"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Haz lo que sientas, no estamos aqui para siempre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy32"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf31"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text33"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No tengo todo calculado, ni mi vida resuelta, solo tengo una sonrisa y espero una devuelta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy33"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf32"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text34"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="Tanto si piensas que puedes como si no, estaras en lo cierto "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy34"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf33"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text35"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No hay destino marcado ni futuro que no se construya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy35"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf34"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </ScrollView>
+
+
+
+</androidx.cardview.widget.CardView>

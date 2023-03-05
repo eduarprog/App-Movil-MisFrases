@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--Foto de perfil-->
+        <!--<ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ejemplologo"/>
+-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+            <!--Nombre del admin-->
+            <TextView
+                android:id="@+id/NombresAdmin"
+                android:text="Frases de soledad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#388DD8"/>
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:src="@drawable/soledad"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#388DD8"
+                android:layout_marginTop="10dp"/>
+
+
+            <!--Frase 1-->
+            <TextView
+                android:id="@+id/text1"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Estar solo me ha enseñado que no es tan malo como alguna vez pense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+
+                android:textColor="#000"
+
+                />
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy1"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    />
+            </LinearLayout>
+
+
+            <!--Frase 2-->
+            <TextView
+                android:id="@id/text2"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La soledad te ayuda a encontrarte a ti mismo, no le corras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy2"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+
+
+            <!--Frase 3-->
+            <TextView
+                android:id="@+id/text3"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El que se aleja que le vaya bien y el que se queda aca voy estar con el"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy3"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    />
+            </LinearLayout>
+
+            <!--Frase 4-->
+            <TextView
+                android:id="@+id/text4"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La soledad no deberia ser un castigo, mejor deberia ser un regalo de vida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy4"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <!--Frase 5-->
+            <TextView
+                android:id="@+id/text5"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Es mejor estar solo, que mal acompañado "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy5"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+            <!--Frase 6-->
+            <TextView
+                android:id="@+id/text6"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" El amor mas grande es el que se tiene a uno mismo, no le ruegues a nadie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy6"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text7"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Te fuiste y me dejaste con este vacio en el pecho, me dueles demasiado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy7"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text8"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Me aleje y me voy a seguir alejando de todo lo que no me sume "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy8"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text9"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Me aleje y lo seguire haciendo mientras eso me haga bien "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy9"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text10"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Cuando me di cuenta de la paz que deja estar solo, ahi me quede "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy10"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text11"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" No con cualquiera se habla de todo "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy11"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text12"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  La soledad es hermosa, deberias intentar tirarle una foto  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy12"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text13"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  La soledad del hombre no es más que su miedo a la vida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy13"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf12"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text14"
+                android:drawableStart="@drawable/linea_icon"
+                android:text= "La soledad siempre te lanza a nuevas oportunidades de vida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy14"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf13"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text15"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Si estamos solos, nos volvemos más solitarios. La vida es extraña "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy15"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf14"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text16"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Tan sola no me has dejado, que estoy conmigo y me basta, igual que siempre lo he estado "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy16"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf15"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text17"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La amistad hacia uno mismo es de suma importancia, ya que sin ella no se puede ser amigo de nadie "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy17"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf16"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text18"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Sólo salgo para renovar la necesidad de estar sólo "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy18"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf17"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text19"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La soledad es la única cosa que encuentras cuando no la buscas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy19"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf18"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text20"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="La soledad me persigue para ayudarme, léelo de nuevo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy20"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf19"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text21"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="   Estar solo es ser diferente, ser diferente es estar solo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy21"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf20"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text22"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  ¡Qué agradable sorpresa es descubrir que, al fin y al cabo, estar solo no es necesariamente sentirse solo! "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy22"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf21"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text23"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La soledad no es la situación más agradable, pero puede hacerte crecer  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy23"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf22"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text24"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Se puede ser famoso y tener mucho dinero y sentirse tremendamene desamparado y solo "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy24"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf23"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text25"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="En la soledad no se encuentra más que lo que a la soledad se lleva  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy25"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text26"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La soledad es peligrosa, una vez que te das cuenta de cuánta paz hay en ella, no quieres lidiar con la gente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy26"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf25"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text27"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" La soledad es el premio de ser adulto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy27"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf26"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text28"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" De la soledad, surgen buenas ideas para avanzar y ser alguien mejor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy28"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf27"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text29"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Basta con pensar en la soledad de los demás para no sentirse solo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy29"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf28"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text30"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Lo peor de la soledad es que trae un cara a cara con uno mismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy30"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf29"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text31"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Cuidado con pensar que estar solo es algo malo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy31"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf30"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text32"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Aprende a vivir aislado y a meditar en soledad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy32"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf31"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text33"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" Si no eres feliz estando solo, no lo seras cuando estes acompañado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy33"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf32"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text34"
+                android:drawableStart="@drawable/linea_icon"
+                android:text=" A veces es mejor estar solo… Nadie puede lastimarte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy34"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf33"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text35"
+                android:drawableStart="@drawable/linea_icon"
+                android:text="  Dormir contigo es estar solo dos veces, es la soledad al cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="10dp"
+                android:textColor="#000"/>
+
+            <!--Acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/copy35"
+                    android:background="@drawable/copy_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="270dp"
+                    />
+                <ImageButton
+                    android:background="@drawable/compartir_ico"
+                    android:id="@+id/BotonCompartirf34"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </ScrollView>
+
+
+
+</androidx.cardview.widget.CardView>

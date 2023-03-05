@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mis Frases</string>
+    <string name="eslogan">Tus frases para cada momento</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="InicioA">Inicio</string>
+    <string name="AcerdaDe">Acerda de</string>
+    <string name="CompartirApp">Compartir</string>
+    <string name="GuardadoF">Frases guardadas</string>
+    <string name="Compartirapp">Compartir App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

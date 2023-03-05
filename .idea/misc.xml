@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/acerda_de.xml" value="0.22" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_admin.xml" value="0.33" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_frasesamor.xml" value="0.1930083702609552" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_frasesfotos.xml" value="0.33" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_frasesmotivacion.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_frasespensar.xml" value="0.16984402079722705" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_frasessoledad.xml" value="0.16984402079722705" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_inicio.xml" value="0.25" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/activity_menu_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/carga.xml" value="0.25" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/compartir.xml" value="0.25" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/encabezado.xml" value="0.22" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/fragment_acerca_de.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/fragment_acercade.xml" value="0.2" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/fragment_acerda_de.xml" value="0.22" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/fragment_compartir.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/fragment_compartir_app.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/fragment_inicio_a.xml" value="0.2" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/frasesamor.xml" value="0.18" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/frasesfotos.xml" value="0.2" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/frasesmotivacion.xml" value="0.22" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/frasespensar.xml" value="0.1" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/frasessoledad.xml" value="0.1" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/inicio.xml" value="0.22" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/layout/inicio_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/menu/menu_inicio.xml" value="0.25" />
+        <entry key="..\:/Users/criss/MisFrases/app/src/main/res/menu/menu_volver.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

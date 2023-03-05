@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E1F5FE"
+    tools:showIn="navigation_view">
+
+    <item
+
+        android:title="Opciones">
+
+        <menu>
+
+            <item
+                android:id="@+id/InicioA"
+                android:title="@string/InicioA"
+                android:icon="@drawable/icon_inicio"/>
+
+        </menu>
+
+
+
+    </item>
+
+    <item
+
+        android:title="Mas Opciones">
+
+        <menu>
+            <item
+                android:id="@+id/AcercaDe"
+                android:title="@string/AcerdaDe"
+                android:icon="@drawable/icon_acercade"
+                />
+
+            <item
+                android:id="@+id/CompartirApp"
+                android:title="@string/CompartirApp"
+                android:icon="@drawable/icon_compartir"/>
+
+
+        </menu>
+
+    </item>
+</menu>

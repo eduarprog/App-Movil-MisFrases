@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+
+            <!--Nombre del admin-->
+            <TextView
+                android:drawableStart="@drawable/catego_icon"
+                android:text=" Categorias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:typeface="monospace"
+                android:textColor="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"/>
+
+            <!--Nombre del admin-->
+            <TextView
+
+                android:id="@+id/NombresAdmin"
+                android:text="Frases de Amor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textColor="#388DD8"/>
+
+            <!--Correo del admin-->
+            <TextView
+                android:id="@+id/CorreoAdmin"
+                android:text="Amores, enamorado, desamor "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"/>
+
+
+
+                <Button
+                    android:background="@drawable/btn_personalizado"
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="270dp"
+                    android:text="Ver"
+                    android:onClick="frasesa"/>
+
+
+
+
+            <!--Nombre del admin-->
+            <TextView
+
+                android:text="Frases de Motivación"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textColor="#388DD8"/>
+
+            <!--Correo del admin-->
+            <TextView
+
+                android:text="Superacion, esperanza, valentia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"/>
+
+            <Button
+            android:background="@drawable/btn_personalizado"
+                android:layout_marginStart="270dp"
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text="Ver"
+                android:onClick="frasesm">
+
+            </Button>
+
+
+            <!--Nombre del admin-->
+            <TextView
+
+                android:text="Frases para Fotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textColor="#388DD8"/>
+
+            <!--Correo del admin-->
+            <TextView
+
+                android:text="Estatus social, caption para redes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"/>
+
+
+            <Button
+                android:background="@drawable/btn_personalizado"
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_marginStart="270dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text="Ver"
+                android:onClick="frasesf">
+
+            </Button>
+
+            <!--Nombre del admin-->
+            <TextView
+
+                android:text="Frases para Pensar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textColor="#388DD8"/>
+
+            <!--Correo del admin-->
+            <TextView
+
+                android:text="Pensamientos unicos, anilisis de la vida "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"/>
+
+            <Button
+                 android:background="@drawable/btn_personalizado"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_marginStart="270dp"
+                android:layout_height="match_parent"
+                android:text="Ver"
+                android:onClick="frasesp">
+
+            </Button>
+
+            <!--Nombre del admin-->
+            <TextView
+
+                android:text="Frases de Soledad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textColor="#388DD8"/>
+
+            <!--Correo del admin-->
+            <TextView
+
+                android:text="El valor de estar solo, quererse a uno mismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"/>
+
+            <Button
+                android:background="@drawable/btn_personalizado"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_marginStart="270dp"
+                android:layout_height="match_parent"
+                android:text="Ver"
+                android:onClick="frasesso">
+
+            </Button>
+
+
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

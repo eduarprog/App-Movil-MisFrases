@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    tools:context=".carga">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Ayudanos a crecer compartiendo nuestra app!"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="compartir.json.json"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_loop="true" />
+
+
+        <Button
+            android:id="@+id/compartirapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_personalizado"
+            android:drawableStart="@drawable/icon_compartir"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:text="@string/Compartirapp"
+            android:textColor="#fff" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
